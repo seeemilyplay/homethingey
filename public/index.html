@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Thingey</title>
+  <title>Home Thingy</title>
+
   <link rel="stylesheet" href="css/style.css">
 
   <script src="libs/jquery-1.7.2.min.js"></script>
@@ -12,9 +13,30 @@
   <script src="js/favorites.js"></script>
 </head>
 <body>
-  <h1>Home Thingey</h1>
-  <h2>Find a home for the things you've already bought.</h2>
-  <p>Hello Alesha and Angela!</p>
+  <img src="/img/homethingy_logo.png"></img>
+
+  <div class="first-page">
+    <p>Enter your Etsy name and a location to find a home for your things.</p>
+
+    <div>Your Etsy name:</div>
+    <input type="text" name="etsyname"></input>
+
+    <div>Your location:</div>
+    <input type="text" name="location"></input>
+
+    <div class="start-button">Start</div>
+  </div>
+
+  <div class="second-page" style="display:none;">
+    <p>blah blah</p>
+  </div>
+
+  <script>
+    $('.start-button').click(function() {
+        $('.first-page').hide();
+        $('.second-page').show();
+    });
+  </script>
 
   <script>
     var favorites = new Favorites();
