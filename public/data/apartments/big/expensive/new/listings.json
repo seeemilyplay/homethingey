@@ -2,23 +2,38 @@
   "entries": [
     {
        "url": "http://www.immobilienscout24.de/expose/67662066",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/171/341/548/171341548-0.jpg/ORIG/resize/400x300%3E/format/jpg?3206857625"
+       "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/171/341/548/171341548-0.jpg/ORIG/resize/400x300%3E/format/jpg?3206857625",
+       "title": "Oasis in the attic with three roof terraces sheltered in Brand",
+       "price": "2990.00",
+       "size": "240,00"
     },
     {
-       "url": "",
-       "img_url": ""
+       "url": "http://www.immobilienscout24.de/expose/68179908?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-/Wohnung-Miete/Berlin/Berlin/-/-/130,00-/EURO--1000,00%26exposeId%3D68179908&navigationHasPrev=false&navigationHasNext=true&navigationBarType=RESULT_LIST",
+       "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/170/255/847/170255847-0.jpg/ORIG/resize/400x300%3E/format/jpg?118957933",
+      "title": "Send sqm 4 Zimmer/154 / in a country house in the countryside in Marienfeld",
+      "price": "1265.00",  
+      "size": "154.00" 
     },
     {
-       "url": "",
-       "img_url": ""
+       "url": "http://www.immobilienscout24.de/expose/68605569?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-/Wohnung-Miete/Berlin/Berlin/-/-/130,00-/EURO--1000,00%26exposeId%3D68605569&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+       "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/175/501/348/175501348-0.jpg/ORIG/resize/400x300%3E/format/jpg?2927070410",
+      "title": "Newly refurbished duplex apartment with garden and 2 terraces!",
+      "price": "1399.00",  
+      "size": "151.00" 
     },
     {
-       "url": "",
-       "img_url": ""
+       "url": "http://www.immobilienscout24.de/expose/57099369?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-/Wohnung-Miete/Berlin/Berlin/-/-/130,00-/EURO--1000,00%26exposeId%3D57099369&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+       "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/57/508/143/57508143-0.jpg/ORIG/resize/400x300%3E/format/jpg?3013191733",
+       "title": "Art Nouveau, fitted kitchen, garden close to S-Bahn station. Beautiful wood / Pankow ",
+       "price": "1.250,00",  
+       "size": "150,00" 
     },
     {
-       "url": "",
-       "img_url": ""
+       "url": "http://www.immobilienscout24.de/expose/67007260?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-/Wohnung-Miete/Berlin/Berlin/-/-/130,00-/EURO--1000,00%26exposeId%3D67007260&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+       "img_url": "http://picture.immobilienscout24.de/pic/orig03/N/156/594/998/156594998-0.jpg/ORIG/resize/400x300%3E/format/jpg?3121799734",
+       "title": "Architectural rarity: duplex with terrace and garden use!",
+       "price": "1356.00",  
+       "size": "150,00" 
     }
   ]
 }
