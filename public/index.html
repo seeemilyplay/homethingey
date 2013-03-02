@@ -5,10 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home Thingey</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="libs/jquery-1.7.2.min.js"></script>
+  <script src="libs/underscore-min.js"></script>
+  <script src="libs/backbone-min.js"></script>
+  <script src="js/favorites.js"></script>
 </head>
 <body>
   <h1>Home Thingey</h1>
   <h2>Find a home for the things you've already bought.</h2>
   <p>Hello Alesha and Angela!</p>
+
+  <script>
+    var favorites = new Favorites();
+    favorites.fetch();
+    console.log(favorites);
+  </script>
 </body>
 </html>
