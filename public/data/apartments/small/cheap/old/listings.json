@@ -1,39 +1,39 @@
-"result": {
-  "entries": [
-    {
-       "url": "http://www.immobilienscout24.de/expose/61607300?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D61607300&navigationHasPrev=false&navigationHasNext=true&navigationBarType=RESULT_LIST",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/166/801/968/166801968-0.jpg/ORIG/resize/400x300%3E/format/jpg?1015465854",
-       "title": "Near Spandau Old Town-1 bedroom apartment on the ground floor of the summerhouse",
-       "price": "200.00",  
-       "size": "32,00" 
-    },
-    {
-       "url": "http://www.immobilienscout24.de/expose/68187862?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68187862&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/170/363/644/170363644-0.jpg/ORIG/resize/400x300%3E/format/jpg?3743012831",
-       "title": "Little treasure to feel good - WBS",
-       "price": "260.77",  
-       "size": "29.48" 
-    },
-    {
-       "url": "http://www.immobilienscout24.de/expose/68647177?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68647177&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/176/21/571/176021571-0.jpg/ORIG/resize/400x300%3E/format/jpg?4061125196",
-       "title": "Visitation on Monday, the 4:03 to 9:30",
-       "price": "280.52",  
-       "size": "37.45" 
-    },
-    {
-       "url": "http://www.immobilienscout24.de/expose/68190168?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68190168&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig03/N/170/392/310/170392310-0.jpg/ORIG/resize/400x300%3E/format/jpg?3096326655",
-      "title": "Flat for pottering and screws in the 10th OG! - WBS required!",
-      "price": "257.82",  
-      "size": "29.48" 
-    },
-    {
-       "url": "http://www.immobilienscout24.de/expose/68385916?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68385916&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
-       "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/172/705/171/172705171-0.jpg/ORIG/resize/400x300%3E/format/jpg?1174227831",
-      "title": "Modernised apartment in DDR board, balcony / laminate near S Hohenschönhausen",
-      "price": "330.00",  
-      "size": "35.25" 
-    }
-  ]
+{
+    "entries": [
+        {
+            "url": "http://www.immobilienscout24.de/expose/61607300?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D61607300&navigationHasPrev=false&navigationHasNext=true&navigationBarType=RESULT_LIST",
+            "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/166/801/968/166801968-0.jpg/ORIG/resize/400x300%3E/format/jpg?1015465854",
+            "title": "Near Spandau Old Town-1 bedroom apartment on the ground floor of the summerhouse",
+            "price": "200.00",
+            "size": "32,00"
+        },
+        {
+            "url": "http://www.immobilienscout24.de/expose/68187862?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68187862&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+            "img_url": "http://picture.immobilienscout24.de/pic/orig01/N/170/363/644/170363644-0.jpg/ORIG/resize/400x300%3E/format/jpg?3743012831",
+            "title": "Little treasure to feel good - WBS",
+            "price": "260.77",
+            "size": "29.48"
+        },
+        {
+            "url": "http://www.immobilienscout24.de/expose/68647177?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68647177&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+            "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/176/21/571/176021571-0.jpg/ORIG/resize/400x300%3E/format/jpg?4061125196",
+            "title": "Visitation on Monday, the 4:03 to 9:30",
+            "price": "280.52",
+            "size": "37.45"
+        },
+        {
+            "url": "http://www.immobilienscout24.de/expose/68190168?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68190168&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+            "img_url": "http://picture.immobilienscout24.de/pic/orig03/N/170/392/310/170392310-0.jpg/ORIG/resize/400x300%3E/format/jpg?3096326655",
+            "title": "Flat for pottering and screws in the 10th OG! - WBS required!",
+            "price": "257.82",
+            "size": "29.48"
+        },
+        {
+            "url": "http://www.immobilienscout24.de/expose/68385916?navigationServiceUrl=/search/resultList/exposeNavigation/navigate.go?searchUrl%3D/Suche/S-T/Wohnung-Miete/Berlin/Berlin/-/-/25,00-/EURO--200,00%26exposeId%3D68385916&navigationHasPrev=true&navigationHasNext=true&navigationBarType=RESULT_LIST",
+            "img_url": "http://picture.immobilienscout24.de/pic/orig04/N/172/705/171/172705171-0.jpg/ORIG/resize/400x300%3E/format/jpg?1174227831",
+            "title": "Modernised apartment in DDR board, balcony / laminate near S Hohenschönhausen",
+            "price": "330.00",
+            "size": "35.25"
+        }
+    ]
 }

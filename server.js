@@ -5,29 +5,10 @@ var express = require('express'),
     http = require('http');
 
 var app = connect()
+  .use(connect.favicon('public/img/favicon.ico'))
   .use(connect.logger('dev'))
   .use(connect.static('public'))
-  .use(function(req, res, next) {
-    if (req.url.indexOf('/openapi.etsy.com')===0) {
-      var options = {
-        host: 'openapi.etsy.com',
-        path: req.url.substring(17),
-        method: 'GET'
-      };
 
-      callback = function(response) {
-        response.on('data', function (chunk) {
-          res.write(chunk);
-        });
-      }
-
-      var etsyreq = http.request(options, callback);
-      etsyreq.end();
-      res
-    }
-    res
-  })
-
-var port = process.env.PORT || 8888;
+var port = process.env.PORT || 8080;
 // http.createServer(app).listen(8080);
 http.createServer(app).listen(port);

@@ -10,6 +10,7 @@
   <script src="libs/underscore-min.js"></script>
   <script src="libs/backbone-min.js"></script>
   <script src="js/favorites.js"></script>
+  <script src="js/apartments.js"></script>
 </head>
 <body>
   <div class="content">
@@ -34,6 +35,8 @@
 
     <div class="second-page hidden">
       <p>blah blah</p>
+      <div id="favorites" />
+      <div id="apartments" />
     </div>
   </div>
 
@@ -45,9 +48,22 @@
   </script>
 
   <script>
-    var favorites = new Favorites();
+    var favorites = new Favorites('82emily');
     favorites.fetch();
-    console.log(favorites);
+    var favoritesView = new FavoritesView({
+      model: favorites,
+      el: jQuery('#favorites')
+    });
+
+    var apartments = new Apartments({
+       bigOrSmall: favorites.isBigOrSmall(),
+       expensiveOrCheap: favorites.isExpensiveOrCheap(),
+       oldOrNew: favorites.isOldOrNew()});
+    apartments.fetch();
+    var apartmentsView = new ApartmentsView({
+      model: apartments,
+      el: jQuery('#apartments')
+    });
   </script>
 </body>
 </html>
