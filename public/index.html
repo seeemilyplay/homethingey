@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home Thingy</title>
 
   <link rel="stylesheet" href="css/style.css">
@@ -13,22 +12,29 @@
   <script src="js/favorites.js"></script>
 </head>
 <body>
-  <img src="/img/homethingy_logo.png"></img>
+  <div class="content">
 
-  <div class="first-page">
-    <p>Enter your Etsy name and a location to find a home for your things.</p>
+    <div class="first-page">
+      <div class="header">
+        <img src="/img/homethingy_logo.png"></img>
 
-    <div>Your Etsy name:</div>
-    <input type="text" name="etsyname"></input>
+        <p>Enter your Etsy name and a location to find a home for your things.</p>
+      </div>
 
-    <div>Your location:</div>
-    <input type="text" name="location"></input>
+      <div class="login">
+        <div>Your Etsy ID:</div>
+        <input type="text" name="etsyname"></input>
 
-    <div class="start-button">Start</div>
-  </div>
+        <div>Location:</div>
+        <input type="text" name="location"></input>
+      </div>
 
-  <div class="second-page" style="display:none;">
-    <p>blah blah</p>
+      <div class="start-button">start</div>
+    </div>
+
+    <div class="second-page hidden">
+      <p>blah blah</p>
+    </div>
   </div>
 
   <script>
