@@ -164,6 +164,9 @@ a.start-button:hover {
 
 #second-page {
   margin-top: 150px;
+  background: #FFF;
+  padding: 20px;
+  display: none;
 }
 
 #favorites .thumbnail {
@@ -174,9 +177,140 @@ a.start-button:hover {
 
 .query .term {
   background-color: #FD4D0F;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 5px;
+  font-family: serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.query .second-line {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .apartment {
   display: inline-block;
 }
 
+.user img {
+
+  border: 1px solid gray;
+  padding: 3px;
+  border-radius: 5px;
+  float: left;
+}
+
+.user .info {
+  float: left;
+  padding: 20px;
+}
+
+.user .info .name {
+  font-size: x-large;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  padding-bottom: 10px;
+}
+
+.user .info .tag {
+  font-size: large;
+  color: #737373;
+  font-weight: bold;
+}
+
+.user .info .tag .purchase {
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+.user .info .tag .cost {
+  padding-left: 27px;
+  font-weight: normal;
+}
+
+.user .info .tag .style {
+  padding-left: 58px;
+  font-weight: normal;
+}
+
+.user {
+  float: left;
+}
+
+#favorites {
+  float: left;
+  padding: 50px;
+}
+
+.result-content {
+  border-top: 1px solid #BABABA;
+  background-color: #F6F5F1;
+  padding: 20px;
+}
+
+.query {
+  font-size: x-large;
+}
+
+.query .name {
+  font-family: serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.apartment {
+  background: #FFF;
+  border: 1px solid #BABABA;
+  margin: 10px;
+  width: 402px;
+  height: 497px;
+  text-align: center;
+  padding: 15px;
+}
+
+.apartment .info {
+  padding: 10px;
+  text-align: left;
+}
+
+.apartment .info a {
+  color: #000;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+}
+
+.apartment .info a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.apartment .info .price,
+.apartment .info .size {
+  font-size: large;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 3px 30px;
+  margin: 10px 0;
+  background-repeat: no-repeat;
+}
+
+.apartment .info .price {
+  background-image: url('../img/icon_prize.png');
+}
+
+.apartment .info .size {
+  background-image: url('../img/icon_size.png');
+}
+
+.apartment .extras {
+  margin-top: 40px;
+}
+
+.apartment img {
+  max-width: 320px;
+}

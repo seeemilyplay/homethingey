@@ -33,18 +33,24 @@
     <div id="second-page">
       <div id="user"></div>
       <div id="favorites"></div>
-      <div id="query"></div>
-      <div id="apartments"></div>
+      <div class="clear" />
+      <div class="result-content">
+        <div id="query"></div>
+        <div id="apartments"></div>
+      </div>
     </div>
   </div>
 
   <script type="text/template" id="user-template">
     <div class="user">
       <img src="<%= img_url %>"></img>
-      <div><%= name %></div>
-      <div>purchases <%= purchaseCount %></div>
-      <div>avg cost <%= avgCost %>€</div>
-      <div>style <%= style %></div>
+      <div class="info">
+        <div class="name"><%= name %></div>
+        <div class="tag">purchases <span class="purchase"><%= purchaseCount %></span></div>
+        <div class="tag">avg cost <span class="cost"><%= avgCost %>€</span></div>
+        <div class="tag">style <span class="style"><%= style %></span></div>
+      </div>
+      <div class="clear" />
     </div>
   </script>
 
@@ -54,23 +60,27 @@
 
   <script type="text/template" id="query-template">
     <div class="query">
-    <p><%= name %> needs a <span class="term"><%= bigOrSmall %></span> <span class="term"><%= (expensiveOrCheap === 'cheap') ? 'affordable' : expensiveOrCheap %></span> <span class="term"><%= oldOrNew %></span> apartment in <%= location %> for her things.</div>
+      <div><span class="name"><%= name %></span> needs a</div>
+      <div class="second-line"><span class="term"><%= bigOrSmall %></span> <span class="term"><%= (expensiveOrCheap === 'cheap') ? 'affordable' : expensiveOrCheap %></span> <span class="term"><%= oldOrNew %></span> apartment in <%= location %> for her things.</div>
     </div>
   </script>
 
   <script type="text/template" id="apartment-template">
     <div class="apartment">
+      <img src="<%= img_url %>" height="260"></img>
       <div class="info">
         <a href="<%= url %>"><%= title %></a>
-        <div class="price"><%= price %>€</div>
-        <div class="size"><%= size %>m²</div>
+        <div class="extras">
+          <div class="price"><%= price %>€</div>
+          <div class="size"><%= size %>m²</div>
+        </div>
       </div>
-      <img src="<%= img_url %>"></img>
     </div>
   </script>
 
   <script>
     $('.start-button').click(function() {
+      $('#second-page').show();
       $('#user').empty();
       $('#favorites').empty();
       $('#query').empty();
@@ -84,8 +94,8 @@
 
       var userData = {
         name: (username === '82emily') ? 'Emily' : 'Alesha',
-        purchaseCount: (username === '82emily') ? 10 : 10,
-        avgCost: (username === '82emily') ? '3424,90' : '204,10',
+        purchaseCount: (username === '82emily') ? 8 : 5,
+        avgCost: (username === '82emily') ? '3424,90' : '30,10',
         style: (username === '82emily') ? 'modern' : 'vintage',
         img_url: (username === '82emily') ? '/img/emily.jpg' : '/img/alesha.jpg'
       };
