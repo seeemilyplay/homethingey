@@ -58,7 +58,6 @@
         "url_75x75": "http://img2.etsystatic.com/005/0/7040790/il_75x75.401232222_dz1i.jpg",
         "price": "30.00",
         "who_made": "i_did"
-<<<<<<< HEAD
     },
 {
            "listing_id": 125197100,
@@ -68,7 +67,7 @@
            "state": "active",
            "creation_tsz": 1362253087,
            "favorite_listing_id": null,
-           "url_75x75": "http:\/\/img1.etsystatic.com\/003\/0\/7099051\/il_75x75.362200965_afxc.jpg"    ,
+           "url_75x75": "http://img1.etsystatic.com/003/0/7099051/il_75x75.362200965_afxc.jpg"    ,
           "price": "14.00",
           "who_made": "someone_else"
       },
@@ -80,7 +79,7 @@
            "state": "active",
            "creation_tsz": 1362253087,
            "favorite_listing_id": null,
-           "url_75x75": "http:\/\/img0.etsystatic.com\/000\/0\/6698355\/il_75x75.319031712.jpg"    ,
+           "url_75x75": "http://img0.etsystatic.com/000/0/6698355/il_75x75.319031712.jpg"    ,
           "price": "14.00",
           "who_made": "someone_else"
       },
@@ -92,7 +91,7 @@
            "state": "active",
            "creation_tsz": 1362253087,
            "favorite_listing_id": null,
-           "url_75x75": "http:\/\/img0.etsystatic.com\/000\/0\/6851535\/il_75x75.332666484.jpg"    ,
+           "url_75x75": "http://img0.etsystatic.com/000/0/6851535/il_75x75.332666484.jpg"    ,
           "price": "14.00",
           "who_made": "someone_else"
       },
@@ -120,7 +119,4 @@
           "price": "14.00",
           "who_made": "someone_else"
       }
-=======
-    }
->>>>>>> 14224af0057441df683d692d4998bd5cae527e2e
 ]}
