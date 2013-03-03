@@ -1,7 +1,8 @@
 window.Favorites = Backbone.Model.extend({
   initialize: function(username) {
     this.username = username;
-    this.url = '/data/etsy/' + username + '/favorites.json'
+    this.url = '/data/etsy/' + username + '/favorites.json';
+    this.set({"blah": "bbbb"});
   },
   isExpensiveOrCheap: function() {
     if (this.username === '82emily') {
@@ -33,16 +34,12 @@ window.FavoritesView = Backbone.View.extend({
     this.render();
   },
   render: function() {
-    console.log(this.model);
-    console.log(this.model.attributes);
     _.each(this.model.get("results"), this.renderResult);
   },
   renderResult: function(result) {
     if (result.url_75x75) {
-      var div = $('<div />');
-      div.addClass('etsy-image');
-      div.setStyle('background-image', result.url_75x75);
-      el.append(div);
+      var div = $(_.template($('#favorite-template').html(),result));
+      $(this.el).append(div);
     }
   }
 });
