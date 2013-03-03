@@ -7,7 +7,7 @@
         "state": "active",
         "creation_tsz": 1362253087,
         "favorite_listing_id": null,
-        "url_75x75": "http:\/\/img3.etsystatic.com\/010\/0\/7530893\/il_75x75.412705971_1ryc.jpg",
+        "url_75x75": "http://img3.etsystatic.com/010/0/7530893/il_75x75.412705971_1ryc.jpg",
         "price": "14.00",
         "who_made": "someone_else"
     },
@@ -19,7 +19,7 @@
         "state": "active",
         "creation_tsz": 1362253025,
         "favorite_listing_id": null,
-        "url_75x75": "http:\/\/img0.etsystatic.com\/002\/1\/6118143\/il_75x75.378887124_derj.jpg",
+        "url_75x75": "http://img0.etsystatic.com/002/1/6118143/il_75x75.378887124_derj.jpg",
         "price": "5.00",
         "who_made": "someone_else"
     },
@@ -31,7 +31,7 @@
         "state": "active",
         "creation_tsz": 1362252976,
         "favorite_listing_id": null,
-        "url_75x75": "http:\/\/img1.etsystatic.com\/000\/0\/6698355\/il_75x75.318711941.jpg",
+        "url_75x75": "http://img1.etsystatic.com/000/0/6698355/il_75x75.318711941.jpg",
         "price": "20.00",
         "who_made": "i_did"
     },
@@ -43,7 +43,7 @@
         "state": "active",
         "creation_tsz": 1362252963,
         "favorite_listing_id": null,
-        "url_75x75": "http:\/\/img1.etsystatic.com\/000\/0\/6429931\/il_75x75.318871933.jpg",
+        "url_75x75": "http://img1.etsystatic.com/000/0/6429931/il_75x75.318871933.jpg",
         "price": "14.00",
         "who_made": "i_did"
     },
@@ -55,9 +55,10 @@
         "state": "active",
         "creation_tsz": 1362252959,
         "favorite_listing_id": null,
-        "url_75x75": "http:\/\/img2.etsystatic.com\/005\/0\/7040790\/il_75x75.401232222_dz1i.jpg",
+        "url_75x75": "http://img2.etsystatic.com/005/0/7040790/il_75x75.401232222_dz1i.jpg",
         "price": "30.00",
         "who_made": "i_did"
+<<<<<<< HEAD
     },
 {
            "listing_id": 125197100,
@@ -119,4 +120,7 @@
           "price": "14.00",
           "who_made": "someone_else"
       }
+=======
+    }
+>>>>>>> 14224af0057441df683d692d4998bd5cae527e2e
 ]}
